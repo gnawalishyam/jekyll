@@ -1,0 +1,224 @@
+/************************************************
+Table of Contents
+
+1. Global
+2. Navbar
+3. Header
+4. Venue
+5. Attendee Registration
+6. Call for Sponsors
+7. Contact
+8. Responsive Overrides
+
+*************************************************/
+
+
+/************************************************
+1. Global
+*************************************************/
+p, li {
+    font-style: normal;
+    font-size: 16.5px;
+}
+
+section {
+    padding: 30px 0;
+}
+
+.btn {
+    margin-top: 15px;
+}
+
+/************************************************
+2. Navbar
+*************************************************/
+
+
+
+/************************************************
+3. Header
+*************************************************/
+
+header .intro-text .intro-lead-in {
+    font-style: normal;
+}
+
+header .intro-text .intro-heading, header .intro-text .intro-lead-in {
+    text-shadow: 0px 2px 8px rgba(0, 0, 0, 1);
+}
+
+header {
+    background-image: url('{{ site.baseurl }}/css/2018_style/img/header-bg.jpg');
+}
+
+section h2.section-heading {
+    margin: 0;
+}
+
+section h3.section-subheading {
+    text-decoration: underline;
+}
+
+.navbar-default .nav li a:focus {
+    color: #FFFFFF;
+}
+
+/************************************************
+4. About
+*************************************************/
+
+.about {
+    text-align: justify;
+}
+
+.extended-padding-60 {
+    padding-top: 60px;
+}
+
+section h2.extended-margin-25 {
+    margin-bottom: 25px;
+}
+
+/************************************************
+4. Venue
+*************************************************/
+.map {
+    min-height: 450px;
+    overflow: hidden;
+    padding-bottom: 60%; /* aspect ratio */
+    position: relative;
+    margin: auto;
+}
+
+.googlemap {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/************************************************
+5. Attendee Registration
+
+*************************************************/
+.registration-presignup {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.information-text {
+    margin-bottom: 1em;
+    font-size: 12pt;
+    line-height: 1.75;
+}
+
+/************************************************
+6. Call for Sponsors
+*************************************************/
+
+
+/************************************************
+7. Contact
+*************************************************/
+
+.texboxes {
+	max-width: 720px;
+	margin: auto;
+}
+
+/************************************************
+8. Responsive Overrides
+*************************************************/
+/*Extra small devices (portrait phones, less than 576px)*/
+/*No media query since this is the default in Bootstrap*/
+
+@media(max-width:576px) {
+    body {
+        min-width: 576px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media(min-width:576px) {
+    header .intro-text .intro-heading {
+        font-size: 50px;
+    }
+
+    header .intro-text .intro-lead-in {
+        font-size: 30px;
+    }
+
+}
+
+@media(max-width:768px) {
+    header {
+        min-height: 600px;
+    }
+
+    header .intro-text .intro-heading {
+        line-height: 52px;
+    }
+
+    header .intro-text .intro-lead-in {
+        line-height: 32px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media(min-width:768px) {
+    header {
+        min-height: 900px;
+    }
+
+    header .intro-text {
+        padding-top: 250px;
+        padding-bottom: 0px;
+    }
+
+    header .intro-text .intro-heading {
+        font-size: 65px;
+    }
+
+    header .intro-text .intro-lead-in {
+        font-size: 30px;
+    }
+
+    .nav>li {
+        font-size: 13px;
+    }
+
+    header .intro-text .intro-lead-in {
+        font-style: normal;
+    }
+
+    .navbar-header.page-scroll {
+        margin-top: -60px;
+    }
+
+    /*section {
+        padding: 30px 0;
+    }*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media(min-width:992px) {
+    
+    header .intro-text .intro-heading {
+        font-size: 75px;
+    }
+
+    header .intro-text .intro-lead-in {
+        font-size: 40px;
+    }
+
+    .nav>li {
+        font-size: 16.5px;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media(min-width:1200px) {
+
+}
