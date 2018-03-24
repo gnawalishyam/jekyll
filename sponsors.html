@@ -3,6 +3,32 @@ layout: default
 permalink: /sponsors/
 ---
 
+
+<div class="container">
+	<div id="sponsors" class="people-list">
+		<h1>Sponsors</h1>
+		<p>Interested in sponsoring? Contact us at sponsors@blockchainsupplychain.io.</p>
+		<br>
+
+		<!--<h2>Media Partners</h2>-->
+		<div class="row">
+{% for post in site.categories.sponsors-media %}
+			<div class="card small-card col-lg-3 col-md-3 col-sm-3 col-xs-4 col-xxs-12">
+				<a href="{{ post.url }}">
+					<img src="{{ post.image }}" alt="">
+				</a>
+				<div class="caption">
+					<a href="{{ post.url }}">
+						<h4>{{ post.name }}</h4>
+					</a>
+				</div>
+			</div>
+{% endfor %}
+		</div>
+	</div>
+</div>
+
+<!--
 <div class="container">
 	<div id="sponsors" class="people-list-horizontal">
 		<h1>Sponsors</h1>
@@ -31,3 +57,4 @@ permalink: /sponsors/
 
 	</div>
 </div>
+-->
