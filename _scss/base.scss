@@ -106,11 +106,12 @@ body {
 			}
 		}
 
-		@media (max-width: 1200px) {
-		}
-
 		@media (max-width: 768px) {
 			border-radius: 0;
+		}
+
+		@media (min-width: 768px) {
+			box-shadow: rgba(0,0,0,0.1) 0px 0px 3px;
 		}
 	}
 
@@ -122,6 +123,13 @@ body {
 			@media (max-width: 992px) {
 				text-align: center;
 			}
+		}
+
+		.map {
+			border: 5px solid white;
+			box-shadow: rgba(0,0,0,0.1) 0px 0px 3px;
+			width: 100%;
+			height: 450px;
 		}
 	}
 }
@@ -185,9 +193,7 @@ body {
 			}
 		}
 	}
-}
 
-#main {
 	.people-list-horizontal {
 		.card {
 			img {
@@ -230,10 +236,7 @@ body {
 			}
 		}
 	}
-}
 
-
-#main {
 	.person-page {
 		img {
 			width: 100%;
