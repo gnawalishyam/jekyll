@@ -5,6 +5,11 @@ body {
 
 	font-family: 'Raleway', sans-serif;
 	color: #333333;
+
+}
+
+.main-bg-region {
+	background-image: url('/res/bg-pattern1.png');
 }
 
 .col-md-2half {
@@ -20,10 +25,9 @@ body {
 	}
 }
 
-
-
 #header {
 	background-color: white;
+	margin: 0;
 	
 	//@media (max-width: 1200px) {
 	//	margin-bottom: 0;
@@ -47,7 +51,6 @@ body {
 	}
 }
 
-
 #main {
 	.container {
 		@media (max-width: 768px) {
@@ -70,6 +73,10 @@ body {
 	}
 }
 
+#footer {
+	background-color: white;
+} 
+
 
 
 /////////////////////////////////////////////
@@ -78,6 +85,7 @@ body {
 
 #main {
 	#banner {
+		margin-top: 15px;
 		background-image: url('/res/Houston_KatieHaugland_CreativeCommons.jpg');
 		background-size: cover;
 		background-position-x: 50%;
@@ -128,6 +136,9 @@ body {
 				margin: 0 auto;
 				border-radius: 20%;
 
+				border: 5px solid white;
+				box-shadow: rgba(0,0,0,0.1) 0px 0px 3px;
+
 				@media (max-width: 768px) {
 					max-width: 160px;
 				}
@@ -152,6 +163,9 @@ body {
 					text-align: left;
 				}
 
+				a {
+					color: #333333;
+				}
 			}
 		}
 		.small-card {
@@ -178,31 +192,26 @@ body {
 #main {
 	.people-list-horizontal {
 		.card {
-			.picture {
-				img {
+			img {
+				width: 100%;
+				max-width: 200px;
+				margin: 0 auto;
+				border-radius: 30%;
 
-					@media (max-width: 768px) {
-					}
-				}
+				border: 5px solid white;
+				box-shadow: rgba(0,0,0,0.1) 0px 0px 3px;
 			}
 			.caption {
-				//height: 100px;
-
-				@media (min-width: 480px) {
-				}
-
-				@media (min-width: 768px) {
-				}
-
-				@media (min-width: 1200px) {
-				}
-
 				h3 {
-
+					margin-top: 0;
 				}
+				
 				p {
-					font-size: 14px;
 					text-align: left;
+				}
+				
+				a {
+					color: #333333;
 				}
 
 			}
@@ -227,7 +236,43 @@ body {
 
 
 #main {
-	.program-table {
+	.person-page {
+		img {
+			width: 100%;
+			max-width: 400px;
+			margin: 0 auto;
+			border-radius: 20%;
 		
+			border: 5px solid white;
+			box-shadow: rgba(0,0,0,0.1) 0px 0px 3px;
+
+			@media (max-width: 480px) {
+				max-width: 200px;
+			}
+		}
+		.caption {
+			p {
+				font-size: 14px;
+				text-align: left;
+			}
+
+		}
+		.description {
+
+		}
+	}
+}
+
+#main {
+	.error404 {
+		h1 {
+			font-size: 3em;
+		}
+		h2 {
+			text-align: center;
+		}
+		p {
+			text-align: center;
+		}
 	}
 }

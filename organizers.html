@@ -4,7 +4,65 @@ permalink: /organizers/
 ---
 
 <div class="container">
-	<div id="organizers" class="people-list-horizontal"> <!-- class="people-list" -->
+	<div id="organizers" class="people-list-horizontal">
+		<h1>Organizers</h1>
+
+{% for post in site.categories.organizers %}
+		<div class="card row">
+			<div class="col-lg-1">
+			</div>
+
+			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 col-xxs-4">
+				<img src="{{ post.image }}" alt="">
+			</div>
+
+			<div class="col-lg-8 col-md-9 col-sm-8 col-xs-8 col-xxs-8 caption">
+				<a href="{{ post.url }}">
+					<h3>{{ post.name }}</h3>
+				</a>
+				<p>{{ post.blurb }}</p>
+			</div>
+
+			<div class="col-lg-1">
+			</div>
+		</div>
+		<br>
+{% endfor %}
+
+	</div>
+</div>
+
+<div class="container">
+	<div id="advisors" class="people-list-horizontal">
+		<h1>Advisors</h1>
+
+{% for post in site.categories.advisors %}
+		<div class="card row">
+			<div class="col-lg-1">
+			</div>
+
+			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 col-xxs-4">
+				<img src="{{ post.image }}" alt="">
+			</div>
+
+			<div class="col-lg-8 col-md-9 col-sm-8 col-xs-8 col-xxs-8 caption">
+				<a href="{{ post.url }}">
+					<h3>{{ post.name }}</h3>
+				</a>
+				<p>{{ post.blurb }}</p>
+			</div>
+
+			<div class="col-lg-1">
+			</div>
+		</div>
+		<br>
+{% endfor %}
+
+	</div>
+</div>
+<!--
+<div class="container">
+	<div id="organizers" class="people-list-horizontal">
 		<h1>Organizers</h1>
 
 		<div class="row">
@@ -69,7 +127,7 @@ permalink: /organizers/
 
 	</div>
 </div>
-
+-->
 <!--
 			<div class="card col-xs-3 col-sm-4 col-xxs-12 col-xs-12 col-md-4 col-xxxs-12">
 				<img src="/res/person-placeholder.png" alt="">

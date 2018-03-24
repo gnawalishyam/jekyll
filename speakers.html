@@ -3,9 +3,28 @@ layout: default
 permalink: /speakers/
 ---
 
-
 <div class="container">
-	<div id="organizers" class="people-list">
+	<div id="speakers" class="people-list">
+		<h1>Speakers</h1>
+		<div class="row">
+
+{% for post in site.categories.speakers %}
+			<div class="card small-card col-md-2half col-sm-3 col-xs-4 col-xxs-12">
+				<img src="{{ post.image }}" alt="">
+				<div class="caption">
+					<a href="{{ post.url }}">
+						<h4>{{ post.title }}</h4>
+					</a>
+					<p>{{ post.position }}</p>
+				</div>
+			</div>
+{% endfor %}
+		</div>
+	</div>
+</div>
+<!--
+<div class="container">
+	<div id="speakers" class="people-list">
 		<h1>Speakers</h1>
 		<div class="row">
 			<div class="card small-card col-md-2half col-sm-3 col-xs-4 col-xxs-12">
@@ -84,7 +103,7 @@ permalink: /speakers/
 		</div>
 	</div>
 </div>
-
+-->
 <!--
 TEMPLATE
 
