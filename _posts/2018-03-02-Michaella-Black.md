@@ -7,7 +7,7 @@ title:  "Michaella Black"
 name: "Ms. Michaella Black"
 position: "Event Marketer, Blockchain Technology Initiatives"
 blurb: ""
-categories: organizers
+categories: 
 image: "/res/person-placeholder.png"
 ---
 

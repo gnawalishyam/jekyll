@@ -7,7 +7,7 @@ title:  "Ripp Motion"
 name: "Mr. Ripp Motion"
 position: "Event Marketer, Blockchain Technology Initiatives"
 blurb: "Ripp is an entrepreneurial spirited, data-driven marketer passionate about transforming obstacles into opportunities."
-categories: organizers
+categories: 
 image: "/res/people/Ripp-Motion.jpg"
 ---
 

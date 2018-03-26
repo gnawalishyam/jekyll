@@ -16,14 +16,31 @@ permalink: /contact/
 				<div class="col-md-6">
 					<div class="form-group">
 						<label for="form_name">Name</label>
-						<input id="form_firstname" type="text" name="name" class="form-control" placeholder="Please enter your name *" required="required" data-error="Name is required.">
+						<input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" data-error="Name is required.">
 						<div class="help-block with-errors"></div>
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="form-group">
+						<label for="form_company">Company/Organization</label>
+						<input id="form_company" type="text" name="company" class="form-control" placeholder="" required="required" data-error="Company is required.">
+						<div class="help-block with-errors"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
 						<label for="form_email">Email</label>
-						<input id="form_email" type="email" name="_replyto" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+						<input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
+						<div class="help-block with-errors"></div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="form_phone">Phone</label>
+						<input id="form_phone" type="tel" name="phone" class="form-control" placeholder="" required="required" data-error="Phone number is required.">
 						<div class="help-block with-errors"></div>
 					</div>
 				</div>
@@ -32,7 +49,7 @@ permalink: /contact/
 				<div class="col-md-12">
 					<div class="form-group">
 						<label for="form_message">Message</label>
-						<textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please leave a message."></textarea>
+						<textarea id="form_message" name="message" class="form-control" placeholder="Reason for contacting" rows="4" required="required" data-error="A message is required. Let us know what you are contacting us about."></textarea>
 						<div class="help-block with-errors"></div>
 					</div>
 				</div>
