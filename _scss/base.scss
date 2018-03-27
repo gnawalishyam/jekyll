@@ -77,8 +77,6 @@ body {
 	background-color: white;
 } 
 
-
-
 /////////////////////////////////////////////
 /////////////////////////////////////////////
 // Special Overrides
@@ -141,6 +139,10 @@ body {
 		}
 
 		.card {
+			@media (max-width: 768px) {
+				text-align: center;
+			}
+
 			img {
 				width: 100%;
 				margin: 0 auto;
@@ -149,8 +151,11 @@ body {
 				border: 5px solid white;
 				box-shadow: rgba(0,0,0,0.1) 0px 0px 3px;
 
-				@media (max-width: 768px) {
+				@media (max-width: 480px) {
 					max-width: 160px;
+				}
+				@media (max-width: 768px) {
+					max-width: 200px;
 				}
 			}
 			.caption {
@@ -168,9 +173,18 @@ body {
 					height: 220px;
 				}
 
+				h4 {
+					font-weight: 700;
+					margin-bottom: 0;
+				}
+
 				p {
 					font-size: 14px;
 					text-align: left;
+
+					@media (max-width: 768px) {
+						text-align: center;
+					}
 				}
 
 				a {
@@ -264,6 +278,12 @@ body {
 		}
 		.description {
 
+		}
+	}
+
+	.two-item-cap {
+		img {
+			max-width: 240px;
 		}
 	}
 }
