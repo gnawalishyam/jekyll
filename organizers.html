@@ -3,35 +3,13 @@ layout: default
 permalink: /organizers/
 ---
 
-<!-- <div class="dummy col-lg-3 col-md-3 col-sm-2"></div>  -->
-
 <div class="container">
-	<div id="organizing-companies" class="people-list">
-		<h1>Organizers</h1>
-		<div class="row">
-			
-{% for post in site.categories.organizer-company %}
-			<div class="card small-card col-lg-3 col-md-3 col-sm-4 col-xs-6 col-xxs-6">
-				<a href="{{ post.url }}">
-					<img src="{{ post.image }}" alt="">
-				</a>
-				<!--<div class="caption">
-					<a href="{{ post.url }}">
-						<h4 style="margin-bottom: 0;">{{ post.title }}</h4>
-					</a>
-				</div>-->
-			</div>
-{% endfor %}
-			<!-- <div class="dummy col-lg-3 col-md-3 col-sm-2"></div> -->
-		</div>
-	</div>
 	<div id="organizers" class="people-list">
-		<h2>Team</h2>
+		<h1>Organizers & Advisors</h1>
 		
 		<div class="row">
-			<!-- <div class="dummy col-lg-3 col-md-3 col-sm-2"></div> -->
 {% for post in site.categories.organizers %}
-			<div class="card small-card col-lg-3 col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+			<div class="card center-all-card extra-space-card col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
 				<a href="{{ post.url }}">
 					<img src="{{ post.image }}" alt="">
 				</a>
@@ -43,13 +21,8 @@ permalink: /organizers/
 				</div>
 			</div>
 {% endfor %}
-			<!-- <div class="dummy col-lg-3 col-md-3 col-sm-2"></div> -->
-		</div>
-
-		<div class="row">
-			<!-- <div class="dummy col-lg-3 col-md-3 col-sm-2"></div> -->
 {% for post in site.categories.advisors %}
-			<div class="card small-card col-lg-3 col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+			<div class="card center-all-card extra-space-card col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
 				<a href="{{ post.url }}">
 					<img src="{{ post.image }}" alt="">
 				</a>
@@ -61,11 +34,83 @@ permalink: /organizers/
 				</div>
 			</div>
 {% endfor %}
-			<!-- <div class="dummy col-lg-3 col-md-3 col-sm-2"></div> -->
+		</div>
+	</div>
+
+	<br>
+	<br>
+
+	<div id="organizing-companies" class="people-list">
+		<div class="row">
+			<div class="dummy col-lg-3 col-md-3"></div>
+{% for post in site.categories.organizer-company %}
+			<div class="card center-all-card img-only-card col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+				<a href="{{ post.url }}">
+					<img src="{{ post.image }}" alt="">
+				</a>
+				<div class="caption">
+					<a href="{{ post.url }}">
+						<h4 style="margin-bottom: 0;">{{ post.title }}</h4>
+					</a>
+					<p></p>
+				</div>
+			</div>
+{% endfor %}
+			<div class="dummy col-lg-3 col-md-3"></div>
 		</div>
 	</div>
 </div>
 
+<!-- ============================================================================ 
+     ============================================================================ 
+     ============================================================================ 
+     ============================================================================ 
+     ============================================================================ 
+     ============================================================================ -->
+
+<!--
+
+	<div id="organizers" class="people-list">
+		<h1>Organizers & Advisors</h1>
+		
+		<div class="row">
+			<div class="dummy col-lg-2 col-md-1"></div>
+{% for post in site.categories.organizers %}
+			<div class="card center-all-card extra-space-card col-lg-4 col-md-5 col-sm-6 col-xs-6 col-xxs-12">
+				<a href="{{ post.url }}">
+					<img src="{{ post.image }}" alt="">
+				</a>
+				<div class="caption">
+					<a href="{{ post.url }}">
+						<h4>{{ post.name }}, Organizer</h4>
+					</a>
+					<p>{{ post.position }}</p>
+				</div>
+			</div>
+{% endfor %}
+			<div class="dummy col-lg-2 col-md-1"></div>
+		</div>
+
+		<div class="row">
+			<div class="dummy col-lg-2 col-md-1"></div>
+{% for post in site.categories.advisors %}
+			<div class="card center-all-card extra-space-card col-lg-4 col-md-5 col-sm-6 col-xs-6 col-xxs-12">
+				<a href="{{ post.url }}">
+					<img src="{{ post.image }}" alt="">
+				</a>
+				<div class="caption">
+					<a href="{{ post.url }}">
+						<h4>{{ post.name }}, Advisor</h4>
+					</a>
+					<p>{{ post.position }}</p>
+				</div>
+			</div>
+{% endfor %}
+			<div class="dummy col-lg-2 col-md-1"></div>
+		</div>
+	</div>
+
+-->
 
 <!-- ============================================================================ 
      ============================================================================ 

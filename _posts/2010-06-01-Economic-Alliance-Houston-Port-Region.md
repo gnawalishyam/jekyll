@@ -1,13 +1,13 @@
 ---
 layout: sponsor
 permalink: sponsor/:title
-date: 2018-02-01 11:00:00 -0600
+date: 2010-06-01 11:00:00 -0600
 
 title:  "Economic Alliance Houston Port Region"
 name: "Economic Alliance Houston Port Region"
-position: "Media Partner"
+position: "Association Partner"
 blurb: "The Economic Alliance Houston Port Region is a non-profit whose mission is to grow and market a vibrant regional economy through economic development, public policy,  workforce development, and quality of life initiatives."
-categories: sponsors-media
+categories: sponsors-association
 image: "/res/people/Sponsor-Economic-Alliance-Houston-Port-Region.png"
 website: "http://www.allianceportregion.com/"
 ---

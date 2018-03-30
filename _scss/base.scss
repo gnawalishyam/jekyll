@@ -1,4 +1,8 @@
 
+$font-size-primary: 18px;
+$font-size-secondary: 16px;
+$font-size-tertiary: 14px;
+
 body {
 	margin: 0;
 	padding: 0;
@@ -55,7 +59,7 @@ body {
 	.container {
 		@media (max-width: 768px) {
 			margin: 0 auto;
-			padding: 0;
+			padding: 0 5px;
 		}
 
 		h1 {
@@ -64,17 +68,25 @@ body {
 
 		p {
 			text-align: justify;
-			font-size: 18px;
+			font-size: $font-size-primary;
 		}
 
-		@media (max-width: 768px) {
-			padding: 0 5px;
+		.notice {
+			font-size: $font-size-secondary;
+			font-style: italic;
+			text-align: center;
 		}
 	}
 }
 
 #footer {
 	background-color: white;
+	font-size: $font-size-secondary;
+
+	.attribution {
+		font-size: $font-size-tertiary;
+		font-style: italic;
+	}
 } 
 
 /////////////////////////////////////////////
@@ -139,39 +151,58 @@ body {
 		}
 
 		.card {
-			@media (max-width: 768px) {
+			// less than 480px
+			height: auto;
+			text-align: center;
+
+			@media (min-width: 480px) {
+				height: 280px;
 				text-align: center;
 			}
 
+			@media (min-width: 768px) {
+				height: 300px;
+				text-align: left;
+			}
+
+			@media (min-width: 1200px) {
+				height: 350px;
+				text-align: left;
+			}
+
 			img {
-				width: 100%;
 				margin: 0 auto;
 				//border-radius: 20%;
 
 				border: 5px solid white;
 				box-shadow: rgba(0,0,0,0.1) 0px 0px 3px;
 
-				@media (max-width: 480px) {
-					max-width: 160px;
-				}
-				@media (max-width: 768px) {
-					max-width: 200px;
-				}
-			}
-			.caption {
-				//height: 100px;
+
+				// less than 480px
+				height: 190px;
+				width: 190px;
 
 				@media (min-width: 480px) {
-					height: 220px;
+					height: 190px;
+					width: 190px;
 				}
 
 				@media (min-width: 768px) {
+					height: 210px;
+					width: 210px;
+				}
+
+				@media (min-width: 992px) {
 					height: 220px;
+					width: 220px;
 				}
 
 				@media (min-width: 1200px) {
-					height: 220px;
+					height: 252px;
+					width: 252px;
 				}
+			}
+			.caption {
 
 				h4 {
 					font-weight: 700;
@@ -179,7 +210,7 @@ body {
 				}
 
 				p {
-					font-size: 14px;
+					font-size: $font-size-tertiary;
 					text-align: left;
 
 					@media (max-width: 768px) {
@@ -192,65 +223,34 @@ body {
 				}
 			}
 		}
-		.small-card {
+
+		.center-all-card {
+			text-align: center;
 			.caption {
-				// height: 100px;
-
-				@media (min-width: 480px) {
-					height: 120px;
-				}
-
-				@media (min-width: 768px) {
-					height: 120px;
-				}
-
-				@media (min-width: 1200px) {
-					height: 100px;
-				}
-
-			}
-		}
-	}
-
-	.people-list-horizontal {
-		.card {
-			img {
-				width: 100%;
-				max-width: 200px;
-				margin: 0 auto;
-				//border-radius: 30%;
-
-				border: 5px solid white;
-				box-shadow: rgba(0,0,0,0.1) 0px 0px 3px;
-			}
-			.caption {
-				h3 {
-					margin-top: 0;
-				}
-				
 				p {
-					text-align: left;
-				}
-				
-				a {
-					color: #333333;
-				}
-
+					text-align: center;
+				}	
 			}
 		}
-		.small-card {
-			.caption {
-				// height: 100px;
 
-				@media (min-width: 480px) {
-				}
+		.img-only-card {
+			height: auto;
+		}
 
-				@media (min-width: 768px) {
-				}
+		.extra-space-card {
+			// less than 480px
+			height: auto;
 
-				@media (min-width: 1200px) {
-				}
+			@media (min-width: 480px) {
+				height: 300px;
+			}
 
+			@media (min-width: 768px) {
+				height: 320px;
+			}
+
+			@media (min-width: 1200px) {
+				height: 370px;
 			}
 		}
 	}
@@ -271,7 +271,7 @@ body {
 		}
 		.caption {
 			p {
-				font-size: 14px;
+				font-size: $font-size-tertiary;
 				text-align: left;
 			}
 
@@ -301,3 +301,10 @@ body {
 		}
 	}
 }
+
+
+
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+/////////////////////////////////////////////

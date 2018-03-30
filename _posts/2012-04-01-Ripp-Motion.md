@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: person/:title
-date: 2018-03-02 11:00:00 -0600
+date: 2012-04-01 11:00:00 -0600
 
 title:  "Ripp Motion"
 name: "Mr. Ripp Motion"

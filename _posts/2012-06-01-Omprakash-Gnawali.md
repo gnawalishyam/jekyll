@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: person/:title
-date: 2018-03-02 15:00:00 -0600
+date: 2012-06-01 15:00:00 -0600
 
 title:  "Omprakash Gnawali"
 name: "Dr. Omprakash Gnawali"
