@@ -5,8 +5,8 @@ date: 2018-03-04 12:00:00 -0600
 
 title:  "Nico Wauters"
 name: "Mr. Nico Wauters"
-position: "CEO, T-mining"
-blurb: "Nico Wauters, CEO and co-founder, is responsible for Strategy and Business Development."
+position: "Chief Executive Officer, T-mining"
+blurb: "Nico Wauters is CEO and co-founder of T-mining and is responsible for Strategy and Business Development."
 categories: speakers
 image: "/res/people/Nico-Wauters.jpg"
 ---
