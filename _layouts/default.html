@@ -11,6 +11,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,900" rel="stylesheet">
 	<link rel="stylesheet" href="/res/normalize.min.css">
+	<link rel="stylesheet" href="/res/jquery-ui-1.10.4.custom.min.css">
 	<link rel="stylesheet" href="/res/bootstrap-patched.min.css">
 	<link rel="stylesheet" href="/res/bootstrap-xxs.min.css">
 	<link rel="stylesheet" href="/res/jasny-bootstrap.min.css">
@@ -28,7 +29,7 @@
 </head>
 <body>
 
-	<header id="header" class="navbar sp-navbar-top navbar-default">
+	<header id="header" class="navbar sp-navbar-top navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navbar-offcanvas" data-canvas="body">
@@ -42,16 +43,18 @@
 				<a class="navmenu-brand" href="/">xChain<sup>2</sup>: Blockchain for Supply Chain and Logistics Forum</a>
 				<ul class="nav navbar-nav">
 					<!--<li><a class="nav-item" href="/">Home</a></li>-->
-					<li><a class="nav-item" href="/program/">Program</a></li>
-					<li><a class="nav-item" href="/registration/">Register</a></li>
-					<li><a class="nav-item" href="/speakers/">Speakers</a></li>
-					<li><a class="nav-item" href="/sponsors/">Sponsors</a></li>
-					<li><a class="nav-item" href="/organizers/">Organizers</a></li>
-					<li><a class="nav-item" href="/contact/">Contact</a></li>
+					<li><a class="nav-item" href="#program">Program</a></li>
+					<li><a class="nav-item" href="#register">Register</a></li>
+					<li><a class="nav-item" href="#speakers">Speakers</a></li>
+					<li><a class="nav-item" href="#sponsors">Sponsors</a></li>
+					<li><a class="nav-item" href="#organizers">Organizers</a></li>
+					<li><a class="nav-item" href="#contact">Contact</a></li>
 				</ul>
 			</div>
 		</div>
 	</header>
+
+	<div class="navbar-spacing" style="height: 50px;"></div>
 
 	<!--<hr class="clearfix w-100 d-md-none">-->
 	<main id="main" class="main-bg-region">
@@ -83,12 +86,12 @@
 					<h3>Navigation</h3>
 					<ul class="list-unstyled">
 						<li><a class="" href="/">Home</a></li>
-						<li><a class="" href="/program/">Program</a></li>
-						<li><a class="" href="/registration/">Registration</a></li>
-						<li><a class="" href="/speakers/">Speakers</a></li>
-						<li><a class="" href="/sponsors/">Sponsors</a></li>
-						<li><a class="" href="/organizers/">Organizers</a></li>
-						<li><a class="" href="/contact/">Contact</a></li>
+						<li><a class="" href="/#program">Program</a></li>
+						<li><a class="" href="/#register">Register</a></li>
+						<li><a class="" href="/#speakers">Speakers</a></li>
+						<li><a class="" href="/#sponsors">Sponsors</a></li>
+						<li><a class="" href="/#organizers">Organizers</a></li>
+						<li><a class="" href="/#contact">Contact</a></li>
 					</ul>
 				</div>
 
@@ -109,7 +112,24 @@
 	<!--<hr class="clearfix w-100 d-md-none">-->
 
 	<script src="/res/jquery-1.10.2.min.js"></script>
+<<<<<<< HEAD
 	<script src="/res/bootstrap.min.js"></script>
 	<script src="/res/jasny-bootstrap.min.js"></script>
+=======
+	<script src="/res/jquery-ui-1.10.4.custom.min.js"></script>
+	<script src="/res/bootstrap.min.js"></script>
+	<script src="/res/jasny-bootstrap.min.js"></script>
+
+<script>
+$('#header ul.nav').find('a').click(function(){
+	var $href = $(this).attr('href');
+	var $anchor = $($href).offset().top - 60;
+	console.log($href, $anchor + "px");
+	$('html, body').animate({ scrollTop: $anchor + "px" }, 500);
+	return false;
+});
+</script>
+
+>>>>>>> single-page-design
 </body>
 </html>
