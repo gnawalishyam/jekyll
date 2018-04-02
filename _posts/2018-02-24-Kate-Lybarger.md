@@ -5,7 +5,7 @@ date: 2018-02-24 12:00:00 -0600
 
 title:  "Kate Lybarger"
 name: "Ms. Kate Lybarger"
-position: "Vice President of Protocol, Sweetbridge"
+position: "Global Vegetable Information Lead, Monsanto"
 blurb: "Kate Lybarger is the Global Vegetable Information Lead at Monsanto Company."
 categories: speakers
 image: "/res/people/Kate-Lybarger.png"

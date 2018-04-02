@@ -5,7 +5,7 @@ date: 2018-03-04 12:00:00 -0600
 
 title:  "Emmanuel Viale"
 name: "Mr. Emmanuel Viale"
-position: "Global Vegetable Information Lead, Monsanto"
+position: "Managing Director, Accenture Technology Labs"
 blurb: "Mr. Emmanuel Viale is the Managing Director of the Accenture Technology Labs in Sophia Antipolis, France."
 categories: speakers
 image: "/res/people/Emmanuel-Viale.jpg"
