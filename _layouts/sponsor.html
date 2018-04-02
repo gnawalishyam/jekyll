@@ -1,145 +1,21 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="author" content="Blockchain Technology Initiatives">
-	<meta name="keywords" content="blockchain, supply chain, logistics, houston, event, forum, xchain2">
-	<meta name="description" content="The Blockchain for Supply Chain and Logistics Forum is a two-day event to promote education, collaboration, innovation, and research in the supply chain and logistics industries.">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>{{ site.title }}</title>
-	<link href="https://fonts.googleapis.com/css?family=Droid+Serif|Roboto+Mono" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,900" rel="stylesheet">
-	<link rel="stylesheet" href="/res/normalize.min.css">
-	<link rel="stylesheet" href="/res/jquery-ui-1.10.4.custom.min.css">
-	<link rel="stylesheet" href="/res/bootstrap-patched.min.css">
-	<link rel="stylesheet" href="/res/bootstrap-xxs.min.css">
-	<link rel="stylesheet" href="/res/jasny-bootstrap.min.css">
-	<link rel="stylesheet" href="/styles.css">
+---
+layout: default
+---
 
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111751423-2"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'UA-111751423-2');
-	</script>
-
-</head>
-<body>
-
-	<header id="header" class="navbar sp-navbar-top navbar-default navbar-fixed-top">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navbar-offcanvas" data-canvas="body">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="/">xChain<sup>2</sup></a>
-			</div>
-			<div class="navbar-offcanvas offcanvas">
-				<a class="navmenu-brand" href="/">xChain<sup>2</sup>: Blockchain for Supply Chain and Logistics Forum</a>
-				<ul class="nav navbar-nav">
-					<!--<li><a class="nav-item" href="/">Home</a></li>-->
-					<li><a class="nav-item" href="/#program">Program</a></li>
-					<li><a class="nav-item" href="/#register">Register</a></li>
-					<li><a class="nav-item" href="/#speakers">Speakers</a></li>
-					<li><a class="nav-item" href="/#sponsors">Sponsors</a></li>
-					<li><a class="nav-item" href="/#organizers">Organizers</a></li>
-					<li><a class="nav-item" href="/#contact">Contact</a></li>
-				</ul>
-			</div>
-		</div>
-	</header>
-
-	<div class="navbar-spacing" style="height: 50px;"></div>
-
-	<!--<hr class="clearfix w-100 d-md-none">-->
-	<main id="main" class="main-bg-region">
-		<div class="container">
-			<h1>{{ page.name }}</h1>
-			<!--<h4 class="text-center">{{ page.position }}</h4>-->
-			<h4 class="text-center"><a href="{{ page.website }}">{{ page.website }}</a></h4>
-			<br>
-			<div class="row person-page">
-				<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 col-xxs-12">
-					<p>
-						<img src="{{ page.image }}" alt="">
-					</p>
-				</div>
-				<div class="col-lg-9 col-md-9 col-sm-8 col-xs-8 col-xxs-12 description">
-					{{ content }}
-				</div>
-			</div>
-		</div>
-		<br>
-	</main>
-
-	<!--<hr class="clearfix w-100 d-md-none">-->
-
-	<footer id="footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4 col-md-5 col-sm-8 col-xs-12">
-					<h3>xChain<sup>2</sup>: Blockchain for Supply Chain and Logistics Forum</h3>
-					<p>Hyatt Regency Houston Intercontinental Airport<br>
-						Houston, Texas<br>
-						May 21-22, 2018</p>
-					<p>Organized by the University of Houston and Blockchain Technology Initiatives.</p>
-					<p>
-						<a href="https://twitter.com/bctechinit">
-							<img style="height: 40px;" src="/res/icon-tw.svg" alt="Twitter">
-						</a>
-						<a href="https://www.linkedin.com/company/blockchain-technology-initiatives/">
-							<img style="height: 40px;" src="/res/icon-in.svg" alt="LinkedIn">
-						</a>
-					</p>
-				</div>
-				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-					<h3>Navigation</h3>
-					<ul class="list-unstyled">
-						<li><a class="" href="/">Home</a></li>
-						<li><a class="" href="/#program">Program</a></li>
-						<li><a class="" href="/#register">Register</a></li>
-						<li><a class="" href="/#speakers">Speakers</a></li>
-						<li><a class="" href="/#sponsors">Sponsors</a></li>
-						<li><a class="" href="/#organizers">Organizers</a></li>
-						<li><a class="" href="/#contact">Contact</a></li>
-					</ul>
-				</div>
-
-				<div class="col-lg-6 col-md-5 col-sm-12 col-xs-12">
-					<h3></h3>
-					<div class="attribution">
-						<p><a href="https://www.flickr.com/photos/76771463@N02/8313033950/">Houston Skyline Image</a> is by Katie Haugland licensed under CC 2.0 BY. <a href="https://www.iconfinder.com/iconsets/social-media-circle-flat-1">Social Media Icons</a> are by Hüseyin Çakır licensed under CC 3.0 BY.</p>
-						<p>Copyright 2018 xChain<sup>2</sup> Organizing Committee</p>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</footer>
-
+<div class="container">
+	<h1>{{ page.name }}</h1>
+	<!--<h4 class="text-center">{{ page.position }}</h4>-->
+	<h4 class="text-center"><a href="{{ page.website }}">{{ page.website }}</a></h4>
 	<br>
-	<!--<hr class="clearfix w-100 d-md-none">-->
-
-	<script src="/res/jquery-1.10.2.min.js"></script>
-	<script src="/res/jquery-ui-1.10.4.custom.min.js"></script>
-	<script src="/res/bootstrap.min.js"></script>
-	<script src="/res/jasny-bootstrap.min.js"></script>
-
-<script>
-$('#header ul.nav').find('a').click(function(){
-	var $href = $(this).attr('href');
-	var $anchor = $($href).offset().top - 60;
-	console.log($href, $anchor + "px");
-	$('html, body').animate({ scrollTop: $anchor + "px" }, 500);
-	return false;
-});
-</script>
-
-</body>
-</html>
+	<div class="row person-page">
+		<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 col-xxs-12">
+			<p>
+				<img src="{{ page.image }}" alt="">
+			</p>
+		</div>
+		<div class="col-lg-9 col-md-9 col-sm-8 col-xs-8 col-xxs-12 description">
+			{{ content }}
+		</div>
+	</div>
+</div>
+<br
