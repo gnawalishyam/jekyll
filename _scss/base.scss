@@ -228,7 +228,6 @@ body {
 				border: 5px solid white;
 				box-shadow: rgba(0,0,0,0.3) 0px 0px 3px;
 
-
 				// less than 480px
 				height: 190px;
 				width: 190px;
@@ -253,6 +252,7 @@ body {
 					width: 252px;
 				}
 			}
+
 			.caption {
 
 				h4 {
@@ -307,7 +307,7 @@ body {
 	}
 
 	.person-page {
-		img {
+		.person-image {
 			width: 100%;
 			max-width: 400px;
 			margin: 0 auto;
@@ -318,6 +318,11 @@ body {
 
 			@media (max-width: 480px) {
 				max-width: 200px;
+			}
+
+			@media (max-width: 992px) {
+				max-width: 200px;
+				margin-bottom: 15px;
 			}
 		}
 		.caption {

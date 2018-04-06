@@ -3,8 +3,8 @@ layout: sponsor
 permalink: sponsor/:title
 date: 2010-06-01 11:00:00 -0600
 
-title:  "Logistics & Transportation Assoc. of North America"
-name: "Logistics & Transportation Assoc. of North America"
+title:  "Logistics & Transportation Association of North America"
+name: "Logistics & Transportation Association of North America"
 position: "Association Partner"
 blurb: "Logistics & Transportation Association of North America's mission is to promote and support the people who make supply chain logistics work."
 categories: sponsors-association
