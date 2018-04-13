@@ -16,4 +16,4 @@ Established in 1981, Inbound Logistics magazine was the pioneering publication i
 
 Today Inbound Logistics Media continues to provide business decision makers with the information they need to speed cycle times, reduce inventories, and neutralize transportation cost increases by aligning supply to demand. We provide that information in print, online, in a digital edition and on smartphones/tablets – any way readers want it.
 
-To request a free subscription, visit <a href="www.inboundlogistics.com/free">www.inboundlogistics.com/free</a>
+To request a free subscription, visit <a href="http://www.inboundlogistics.com/free">www.inboundlogistics.com/free</a>
