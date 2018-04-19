@@ -358,6 +358,25 @@ body {
 	}
 }
 
+#main {
+	#calendar-container {
+		text-align: center;
+		#calendar {
+			padding: 0 10px;
+			display: inline-block;
+			font-size: 14px;
+			padding: 5px;
+			background-color: rgb(235, 235, 235);
+			color: rgb(75, 75, 75);
+			border-radius: 5px;
+			.button {
+				color: rgb(75, 75, 75);
+				margin: 0 4px;
+			}
+		}
+	}
+}
+
 /////////////////////////////////////////////
 /////////////////////////////////////////////
 /////////////////////////////////////////////
