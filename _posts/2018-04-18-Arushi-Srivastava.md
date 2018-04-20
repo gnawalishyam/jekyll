@@ -8,7 +8,7 @@ name: "Ms. Arushi Srivastava"
 position: "Director, NTT Data"
 blurb: "Arushi Srivastava is a Senior Director at the NTT DATA's US Public Sector Organization."
 categories: speakers
-image: "/res/person-placeholder.png"
+image: "/res/people/Arushi-Srivastava.jpg"
 ---
 
 Arushi Srivastava is a Senior Director at the NTT DATA's US Public Sector Organization. She leads Advanced Technology and Solution Excellence Initiatives such as IoT, Blockchain, AI, Connected Vehicles & Smart City projects. From past 3 years, her focus has been on Blockchain/Distributed Ledger technologies. She has provided thought leadership and led proofs of concept across finance, IoT, supply chain and public sector applications of this technology. She started her blockchain journey by understanding, evangelizing and finally developing blockchain use cases across different industry verticals. At present, NTT DATA has a global center of excellence for blockchain, where Arushi and her colleagues are working on several projects and contributing to industry consortiums, in order to grow this technology and realize the use cases where it can be most beneficial.
