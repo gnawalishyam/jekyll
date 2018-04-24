@@ -44,7 +44,20 @@ body {
 	//}
 
 	.navbar-brand {
-		font-weight: 800;
+		padding: 8px 15px;
+	}
+
+	.navbar-brand img {
+		width: 100px;
+	}
+
+	.navmenu-brand {
+		margin: 0;
+		padding: 0;
+	}
+	
+	.navmenu-brand img {
+		width: 250px;
 	}
 
 	a {
