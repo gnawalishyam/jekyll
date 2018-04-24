@@ -18,5 +18,3 @@ Prior to Data Gumbo Mr Bruce was COO for MHWirth responsible for global operatio
 Mr. Bruce was founder of the NOVOS project at NOV. Mr Bruce holds a patent jointly on Rig Automation.
 
 Mr. Bruce earned a bachelor’s of science degree in Computer Science from [Worcester Polytechnic Institute](https://www.wpi.edu/). He is a member of IADC and SPE.
-
-**Please welcome ANDREW BRUCE…..**
