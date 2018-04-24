@@ -5,7 +5,7 @@ date: 2018-02-24 12:00:00 -0600
 
 title:  "Andrew Bruce"
 name: "Mr. Andrew Bruce"
-position: "CEO, Data Gumbo"
+position: "Chief Executive Officer, Data Gumbo"
 blurb: ""
 categories: speakers
 image: "/res/people/Andrew-Bruce.png"

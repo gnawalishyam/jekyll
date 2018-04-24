@@ -5,7 +5,7 @@ date: 2018-02-24 12:00:00 -0600
 
 title:  "Bharat Bhardwaj"
 name: "Dr. Bharat Bhardwaj"
-position: "Founder, GoBuyChem.com and Noahs Ark Chemicals."
+position: "Founder, GoBuyChem.com and Noahs Ark Chemicals"
 blurb: ""
 categories: speakers
 image: "/res/people/Bharat-Bhardwaj.jpg"

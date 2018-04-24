@@ -5,7 +5,7 @@ date: 2018-02-24 12:00:00 -0600
 
 title:  "Alexander Varvarenko"
 name: "Mr. Alexander Varvarenko"
-position: "CEO, VARAMAR Group"
+position: "Chief Executive Officer, VARAMAR Group"
 blurb: ""
 categories: speakers
 image: "/res/people/Alexander-Varvarenko.jpg"
