@@ -11,7 +11,7 @@ categories: speakers
 image: "/res/people/Alexander-Varvarenko.jpg"
 ---
 
-Alexander Varvarenko is Owner and CEO of a [VARAMAR Group](www.varamar.com) - the fist shipping (ocean-transport) company to introduce and use Bitcoin in exchange for transportation, [Veles Bulk](www.velesbulk.com) and [ShipNEXT](www.shipnext.com) - the international shipping market-place with fully automated e-mail recognition, calculation and matching platform, as well as a chartering / contract management solution.
+Alexander Varvarenko is Owner and CEO of a [VARAMAR Group](http://www.varamar.com) - the fist shipping (ocean-transport) company to introduce and use Bitcoin in exchange for transportation, [Veles Bulk](http://velesbulk.com/) and [ShipNEXT](https://www.shipnext.com) - the international shipping market-place with fully automated e-mail recognition, calculation and matching platform, as well as a chartering / contract management solution.
 
 Mr. Varvarenko succeeded in automating and digitalizing the most complex segment of shipping - dry-bulk, wet-bulk and heavy/oversized cargo. His next step is integrating Blockchain on ShipNEXT and introducing a full-scale crypto-currency exchange in sea-freight.
 
