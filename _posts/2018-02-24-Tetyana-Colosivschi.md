@@ -5,7 +5,7 @@ date: 2018-02-24 12:00:00 -0600
 
 title:  "Tetyana Colosivschi"
 name: "Ms. Tetyana Colosivschi"
-position: "Director, Strategy, Business Development and Partnerships, ConsenSys Energy"
+position: "Director, Strategy, Business Dev and Partnerships, ConsenSys Energy"
 blurb: ""
 categories: speakers
 image: "/res/people/Tetyana-Colosivschi.jpg"
