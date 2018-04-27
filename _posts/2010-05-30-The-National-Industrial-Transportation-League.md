@@ -8,7 +8,7 @@ name: "The National Industrial Transportation League"
 position: "Association Partner"
 blurb: ""
 categories: sponsors-association
-image: "/res/people/The-National-Industrial-Transportation-League.jpg"
+image: "/res/people/Association-The-National-Industrial-Transportation-League.jpg"
 website: "http://www.nitl.org/"
 ---
 
