@@ -5,7 +5,7 @@ date: 2018-02-24 12:00:00 -0600
 
 title:  "Craig Pirrong"
 name: "Dr. Craig Pirrong"
-position: "Professor of Finance, University of Houston"
+position: "Director, Global Energy Management Institute, University of Houston"
 blurb: ""
 categories: speakers
 image: "/res/people/Craig-Pirrong.jpg"
