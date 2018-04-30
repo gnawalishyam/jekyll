@@ -51,6 +51,13 @@ body {
 		width: 100px;
 	}
 
+	@media (max-width: 374px) {
+		.navbar-offcanvas {
+			width: 250px;
+		}
+	}
+
+
 	.navmenu-brand {
 		margin: 0;
 		padding: 0;
