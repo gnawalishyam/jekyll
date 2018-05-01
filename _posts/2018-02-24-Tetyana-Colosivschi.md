@@ -16,3 +16,9 @@ Tetyana Colosivschi is a Director, Strategy, Business Development and Partnershi
 Prior to joining ConsenSys in 2017, Tetyana founded Fabco Energy Group, an Upstream Oil &amp; Gas Transaction Advisory firm. Tetyana has a decade of experience in Oil &amp; Gas industry, working in OFS and Upstream sectors with leading Oil &amp; Gas companies and governments across the globe.
 
 Tetyana took MBA classes at Wharton School of Business, has Master’s Degree from Yonsei University – a top private university in South Korea. Tetyana speaks Russian and Korean.
+
+## Abstract
+
+**Supply Chain in Energy Industry**
+
+Blockchain revolutionizes major industries across the globe and one of the largest and most comprehensive horizontals of all – that required trust among variety of parties involved – the supply chain. Supply chain processes in Oil &amp; Gas industry are extremely laborious and prone to human error, and can be a perfect start for a company that wants to begin implementing blockchain technology in its operations. There are multiple ways to apply supply chain tools, and I will be talking specifically about processes that have been implemented by ConsenSys and leading enterprises.
