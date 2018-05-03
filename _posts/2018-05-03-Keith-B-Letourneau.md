@@ -11,9 +11,9 @@ categories: speakers
 image: "/res/people/Letourneau-keith.jpg"
 ---
 
-## CHAIR, MARITIME & INTERNATIONAL TRADE PRACTICE GROUP
+** CHAIR, MARITIME & INTERNATIONAL TRADE PRACTICE GROUP
 
-## Keith Letourneau is a member of our Maritime Emergency Response Team (“MERT”).
+** Keith Letourneau is a member of our Maritime Emergency Response Team (“MERT”).
 
 Keith Letourneau focuses his practice on maritime and energy transactions and litigation matters, including:
 
