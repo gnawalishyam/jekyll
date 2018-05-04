@@ -8,8 +8,8 @@ name: "IHS MARKIT"
 position: "Media Partner"
 blurb: "We bring together the deepest intelligence across the widest set of capital-intensive industries and markets. By connecting data across variables, our analysts and industry specialists present our customers with a richer, highly integrated view of their world. That is the benefit of The New Intelligence."
 categories: sponsors-media
-image: "/res/people/IHSM_Logo.jpg"
-website: "https://ihsmarkit.com/index.html"
+image: "/res/people/Sponsor-IHS-Markit.jpg"
+website: "https://ihsmarkit.com/"
 ---
 
 We bring together the deepest intelligence across the widest set of capital-intensive industries and markets. By connecting data across variables, our analysts and industry specialists present our customers with a richer, highly integrated view of their world. That is the benefit of The New Intelligence. 
