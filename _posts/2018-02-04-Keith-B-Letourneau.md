@@ -35,6 +35,6 @@ Keith served as a trial attorney for both the U.S. Coast Guard’s Procurement L
 
 Keith is a member of the Order of the Coif, an honorary academic society that recognizes law students, teachers, judges, and lawyers for their scholarly or professional achievements.
 
-## Outside the Firm
+**Outside the Firm**
 
 Keith provides pro bono assistance to the Houston Volunteer Lawyers Association, and the Kids in Need of Defense (“KIND”) program.
