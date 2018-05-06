@@ -3,8 +3,8 @@ layout: person
 permalink: person/:title
 date: 2018-02-24 12:00:00 -0600
 
-title:  "Keith B. Letourneau"
-name: "Mr. Keith B. Letourneau"
+title:  "Keith Letourneau"
+name: "Mr. Keith Letourneau"
 position: "Partner Maritime, Blank Rome LLP"
 blurb: ""
 categories: speakers
