@@ -30,7 +30,9 @@ body {
 }
 
 .times-sm {
-	text-align: center
+	@media (max-width: 768px) {
+			text-align: center;
+	}
 }
 
 .col-md-2half {
