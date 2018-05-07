@@ -31,3 +31,9 @@ Mark now brings extensive startup knowledge to TBSx3. He understands how to comm
 ## Abstract
 
 **Realistically Assessing the Realities and Opportunities of Blockchain Implementation in Supply Chains**
+
+Beyond the hype: A frank assessment of current blockchain capability from one of the industry's early adopters. 
+
+The credible plans to use of blockchain technology to enhance and protect supply chains will be balanced with an acknowledgement of the industry's current challenges. The strengths and current limitations of the technology will be candidly discussed. 
+
+Find out more about a growing consortium of some of the world's largest supply chain companies.
