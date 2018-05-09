@@ -17,4 +17,4 @@ Daniel Martin has spent his working life in finance, operations and business dev
 
 **Using Smart Contracts to Connect Producers, Transporters, and Buyers**
 
-Today, larger industry players that causes producers to get only a fraction of the retail value of their produce. Imagine using smart contracts, an online marketplace can cut out the intermediaries so producers can go direct to market, even though those markets 1000's of miles away. The speaker will cover the financial market aspects of using smart contracts to facilitate trade with agriculture producers and the benefits of blockchain. 
+In his presentation, Daniel will cover how Producers Market's blockchain smart contract solutions are addressing the problem of producer exploitation and how it affects value/supply economics and resource efficiencies using a client, Michoacan Organics, as a use case. He will also discuss Producers Market’s upcoming blockchain client pilots with Akua and Nautical Farms.
