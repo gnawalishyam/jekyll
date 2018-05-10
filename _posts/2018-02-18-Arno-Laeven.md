@@ -11,4 +11,6 @@ categories: speakers
 image: "/res/people/Arno-Laeven.jpg"
 ---
 
-Setting up and leading the Shell Global Blockchain Center of Excellence. We focus on Trading, Supply Chain, Industrial IoT and Distributed Energy. The CoE combines technical, strategic and legal expertise and we explore and build solutions throughout Shell.
+Arno Laeven has been active in the blockchain space since early 2015. With a background in digital strategy and innovation he saw the potential of the technology early on and is helping large companies like Shell, Philips and Bosch to frame opportunities in blockchain and set up dedicated expert teams. Within Shell he has been exploring use cases ranging from crude oil trading to CO2 disclosure.
+
+**From Curiosity to Strategic Technology: The Journey of 18 Months in Blockchain Exploration at Shell**
