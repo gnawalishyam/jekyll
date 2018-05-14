@@ -13,4 +13,4 @@ image: "/res/people/Arno-Laeven.jpg"
 
 Arno Laeven has been active in the blockchain space since early 2015. With a background in digital strategy and innovation he saw the potential of the technology early on and is helping large companies like Shell, Philips and Bosch to frame opportunities in blockchain and set up dedicated expert teams. Within Shell he has been exploring use cases ranging from crude oil trading to CO2 disclosure.
 
-**From Curiosity to Strategic Technology: The Journey of 18 Months in Blockchain Exploration at Shell**
+**The Journey of 18 Months Blockchain Exploration at Shell: From Curiosity to Strategic Technology**
