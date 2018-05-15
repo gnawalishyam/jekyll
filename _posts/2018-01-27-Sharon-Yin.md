@@ -5,10 +5,10 @@ date: 2018-02-24 12:00:00 -0600
 
 title:  "Sharon Yin"
 name: "Ms. Sharon Yin"
-position: "Attorney, The Yin Law Firm, PLLC"
+position: "Digital Currency & Blockchain Attorney, The Yin Law Firm, PLLC"
 blurb: ""
 categories: speakers
 image: "/res/people/Sharon-Yin.jpg"
 ---
 
-Sharon Yin is an attorney specializing in digital currency and blockchain law. Sharon counsels fintech and blockchain startups on general corporate matters as well as compliance and regulatory issues. Her clients include dApp developers, Crypto hedge funds, Blockchain VC funds and mining operations.
+Sharon Yin is a digital currency and blockchain attorney. She advises fintech and blockchain startups on general corporate matters as well as compliance and regulatory issues. In addition to structuring ICOs, Sharon counsels blockchain projects on business enterprise integration with legacy systems. Her clients include dApp developers, crypto hedge funds, Blockchain VC funds, mining operations and various players in the crypto/blockchain ecosystem. Prior to her cryptocurrency law practice, Sharon litigated commercial disputes in state and federal courts. For more information, please visit [www.cryptocurrencylegalhelp.com.](http://cryptocurrencylegalhelp.com/)
