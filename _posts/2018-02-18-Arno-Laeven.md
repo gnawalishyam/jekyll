@@ -4,7 +4,7 @@ permalink: person/:title
 date: 2018-02-24 12:00:00 -0600
 
 title:  "Arno Laeven"
-name: "Mr. Arno Laeven*"
+name: "Mr. Arno Laeven"
 position: "Digital Strategy and Blockchain Lead, Shell"
 blurb: ""
 categories: speakers
