@@ -5,7 +5,7 @@ date: 2018-02-24 12:00:00 -0600
 
 title:  "Allison Clift-Jennings"
 name: "Ms. Allison Clift-Jennings"
-position: "Chief Executive Officer, Filament"
+position: "Chief Executive Officer, Filament!"
 blurb: ""
 categories: speakers
 image: "/res/people/Allison-Clift-Jennings.jpg"
