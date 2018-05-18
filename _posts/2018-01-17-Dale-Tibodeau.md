@@ -3,35 +3,14 @@ layout: person
 permalink: person/:title
 date: 2018-02-24 12:00:00 -0600
 
-title:  "Mark Koeppen"
-name: "Mr. Mark Koeppen"
-position: "Principal – Energy & Resources, Deloitte"
+title:  "Dale Tibodeau"
+name: "Mr. Dale Tibodeau"
+position: "Professor of Supply Chain Management, C. T. Bauer College of Business"
 blurb: ""
 categories: speakers
-image: "/res/people/Mark-Koeppen.jpg"
+image: "/res/people/Dale-Tibodeau.jpg"
 ---
-Mark is a Principal in Deloitte Consulting’s Strategy & Operations Practice where he supports oil and gas clients with digital
-transformation initiatives. Mark has over 15 years of experience focused in process improvement and technology
-implementations in support of oil, gas and chemicals organizations.
 
-Mark currently leads the U.S. O&G Blockchain Practice for Deloitte Consulting. In this role, Mark helps oil and gas
-companies solve their most complex challenges with distributed ledger technology, while also overseeing the investment
-Deloitte Consulting is making in its O&G blockchain initiatives.
+Dale Tibodeau, D.Eng., P.E., is a Clinical Assistant Professor of Supply Chain Management in the Department of Information and Decisions Sciences at the C. T. Bauer College of Business. He also serves as Director of the Bauer Supply Chain Forum, which oversees collaboration and engagement activities for students, faculty and industry partners. He was awarded his Doctor of Engineering degree from Southern Methodist University in Dallas (1994) is a registered Professional Engineer for the state of Texas and has also been awarded numerous supply chain related professional certifications.
 
-Prior to joining Deloitte, Mark was a Business Analyst for Shell Oil Company. He supported the refining businesses in major
-capital project analysis and financial processes. Mark holds a Bachelors degree in Economics from Texas Tech University
-and Masters of Business Administration from Webster University.
-
-**Recent publications:**
-
-[Wall Street Journal: Blockchain’s future in Oil and Gas](http://deloitte.wsj.com/cio/2017/06/14/blockchains-future-in-oil-and-gas/)
-
-[Rig zone: The Oil and Gas Industry Wakes Up to Blockchain](https://www.rigzone.com/news/the_oil_and_gas_industry_wakes_up_to_blockchain-14-dec-2017-152805-article/?all=hg2)
-
-[Journal of Petroleum Technology: Will Blockchain Become the New Operational Backbone in Energy?](https://www.spe.org/en/jpt/jpt-article-detail/?art=4108) 
-
-**Recent speaking engagements:**
-
-[Rice University: Crypto Currency: What You Need to Know about Initial Coin Offerings](https://www.riceeo.com/event-2818551) 
-
-[AICPA Oil & Gas: Digital Implications to the CFO Structure](http://media.aicpastore.com/Publication/ConferenceDocs/2016-OIL-Brochure.pdf)
+Tibodeau has over three decades of experience in a number of engineering and operations related roles including strategic supply chain planning, supply chain logistics, procurement, material handling engineering, warehouse design, engineering management and program management. His professional career began at Texas Instruments, where he worked as a Site Engineer, and later as a Material Handling Engineering Consultant. He joined Compaq Computer Corporation in 1989 (which later became Hewlett-Packard) wherein his roles included Supervisor for Industrial Engineering and Material Handling Engineering (1989-1992) Senior Commodity Manager (1992-1996) Planning Manager (1996-1998) Business Planning and Supply Chain Initiatives Manager (1998-2002) and Business Engagement Manager for HP's Product Development and Information Technology (2003-2010).
