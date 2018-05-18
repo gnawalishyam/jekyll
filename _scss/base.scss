@@ -101,9 +101,11 @@ body {
 
 	.register {
 		background-color: #d1463c;
-		// padding-bottom: 15px;
 		color: #ffffff;
-		// border: 1px solid #d1463c;
+	}
+	
+	a.register:hover {
+		color: #ffffff;
 	}
 }
 
