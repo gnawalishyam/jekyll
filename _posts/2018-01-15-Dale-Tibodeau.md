@@ -4,7 +4,7 @@ permalink: person/:title
 date: 2018-02-24 12:00:00 -0600
 
 title:  "Dale Tibodeau"
-name: "Mr. Dale Tibodeau"
+name: "Dr. Dale Tibodeau"
 position: "Professor of Supply Chain Management, C. T. Bauer College of Business"
 blurb: ""
 categories: speakers
