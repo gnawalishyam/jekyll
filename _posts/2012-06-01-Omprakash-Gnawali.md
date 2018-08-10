@@ -8,7 +8,7 @@ name: "Dr. Omprakash Gnawali"
 position: "Associate Professor, University of Houston"
 blurb: "Dr. Omprakash Gnawali is an associate professor of Computer Science at the University of Houston. He researches networked systems and the internet of things."
 categories: organizers
-image: "/res/people/Omprakash-Gnawali.jpg"
+image: "/res/people/Omprakash-Gnawali-2.jpg"
 ---
 
 Dr. Omprakash Gnawali is an associate professor of Computer Science at the University of Houston. He researches networked systems and the internet of things.
