@@ -8,7 +8,7 @@ name: "Mr. Filip Vandenbussche"
 position: "North American Rep., Port of Antwerp"
 blurb: "Mr. Filip Vandenbussche is the North American Representative of the Port of Antwerp, Europe's 2nd largest seaport."
 categories: advisors
-image: "/res/people/Filip-Vandenbussche.jpg"
+image: "/res/people/Filip-Vandenbussche-3.jpg"
 ---
 
 Mr. Filip Vandenbussche is the North American Representative of the Port of Antwerp, Europe's 2nd largest seaport.
