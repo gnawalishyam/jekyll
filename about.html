@@ -1,19 +1,70 @@
----
-layout: default
----
-	
+<!DOCTYPE html>
 <html>
 <head>
-
 	<meta charset="UTF-8">
 	<meta name="author" content="Blockchain Technology Initiatives">
-	<meta name="keywords" content="blockchain, supply chain, logistics, houston, event, forum, xchain2">
+	<meta name="keywords" content="blockchain, supply chain, logistics, houston, event, forum, conference, xchain2">
 	<meta name="description" content="XChain2: Blockchain for Supply Chain and Logistics Forum is a two-day event to promote education, collaboration, innovation, and research in the supply chain and logistics industries.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>XChain2: Blockchain for Supply Chain and Logistics Forum</title>
-
+	<title>{{ site.title }}</title>
+	<link href="https://fonts.googleapis.com/css?family=Droid+Serif|Roboto+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="/res/normalize.min.css">
+	<link rel="stylesheet" href="/res/jquery-ui-1.10.4.custom.min.css">
+	<link rel="stylesheet" href="/res/bootstrap-patched.min.css">
+	<link rel="stylesheet" href="/res/bootstrap-xxs.min.css">
+	<link rel="stylesheet" href="/res/jasny-bootstrap.min.css">
+	<link rel="stylesheet" href="/styles.css">
 </head>
+<body>
+	
+	<header id="header" class="navbar sp-navbar-top navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navbar-offcanvas" data-canvas="body">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/"><img src="/res/xc2-logo.svg"></a>
+			</div>
+			<div class="navbar-offcanvas offcanvas">
+				<a class="navmenu-brand text-center" href="/">
+					<img src="/res/xc2-bscl-logo.svg">
+				</a>
+				<ul class="nav navbar-nav">
+					{% if page.layout == 'default' %}
+					<li><a class="nav-item text-center" href="#speakers">Speakers</a></li>
+					<li><a class="nav-item text-center" href="#agenda">Agenda</a></li>
+					<li><a class="nav-item text-center" href="#sponsors">Sponsors</a></li>
+					<li><a class="nav-item text-center" href="#organizers">Organizers</a></li>
+					<li><a class="nav-item text-center" href="#contact">Contact</a></li>
+					<li><a class="nav-item text-center register" href="#register">Register</a></li>
+					<li><a class="nav-item text-center" href="about.html">about</a></li>
+					{% else %}
+					<li><a class="nav-item text-center" href="/#speakers">Speakers</a></li>
+					<li><a class="nav-item text-center" href="/#agenda">Agenda</a></li>
+					<li><a class="nav-item text-center" href="/#sponsors">Sponsors</a></li>
+					<li><a class="nav-item text-center" href="/#organizers">Organizers</a></li>
+					<li><a class="nav-item text-center" href="/#contact">Contact</a></li>
+					<li><a class="nav-item text-center register" href="/#register">Register</a></li>
+					<li><a class="nav-item text-center" href="about.html">about</a></li>
+					{% endif %}
+				</ul>
+			</div>
+		</div>
+	</header>
 
+	<div class="navbar-spacing" style="height: 50px;"></div>
+
+	<!--<hr class="clearfix w-100 d-md-none">-->
+
+	<main id="main" class="main-bg-region">
+		{{ content }}
+		<br>
+	</main>
+--------
 <body>
 	
 
@@ -31,6 +82,90 @@ layout: default
 		</div>
 	</section>
 
+
+</body>	
+	
+--------
+	<hr class="clearfix w-100 d-md-none">
+
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-5 col-sm-8 col-xs-12">
+					<h3>XChain<sup>2</sup>: Blockchain for Supply Chain and Logistics Forum</h3>
+					
+					<p>Organized by the University of Houston and Blockchain Technology Initiatives.</p>
+					<p>
+						<a href="https://twitter.com/bctechinit">
+							<img style="height: 40px;" src="/res/icon-tw.svg" alt="Twitter">
+						</a>
+						<a href="https://www.linkedin.com/company/blockchain-technology-initiatives/">
+							<img style="height: 40px;" src="/res/icon-in.svg" alt="LinkedIn">
+						</a>
+					</p>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 text-center">
+						<!-- <button type="button" class="btn btn-default btn-lg btn-register">Register Now</button> -->
+						<a class="btn btn-default btn-lg btn-register" href="https://blockchainsupplychain.io/#register" role="button">Register Now</a>
+					<!-- <h3>Navigation</h3>
+					<ul class="list-unstyled">
+						<li><a class="" href="/">Home</a></li>
+						<li><a class="" href="/#speakers">Speakers</a></li>
+						<li><a class="" href="/#agenda">Agenda</a></li>
+						<li><a class="" href="/#register">Register</a></li>
+						<li><a class="" href="/#sponsors">Sponsors</a></li>
+						<li><a class="" href="/#organizers">Organizers</a></li>
+						<li><a class="" href="/#contact">Contact</a></li>
+					</ul> -->
+				</div>
+
+				<div class="col-lg-6 col-md-5 col-sm-12 col-xs-12">
+					<h3></h3>
+					<div class="attribution">
+						<p><a href="https://www.iconfinder.com/iconsets/social-media-circle-flat-1">Social Media Icons</a> are by Hüseyin Çakır licensed under CC 3.0 BY.</p>
+						<p>Copyright 2018 XChain<sup>2</sup> Organizing Committee</p>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+
+	<br>
+	<!--<hr class="clearfix w-100 d-md-none">-->
+
+	<script src="/res/jquery-1.10.2.min.js"></script>
+	<script src="/res/jquery-ui-1.10.4.custom.min.js"></script>
+	<script src="/res/bootstrap.min.js"></script>
+	<script src="/res/jasny-bootstrap.min.js"></script>
+	<!-- <script src="/res/tab.js"></script> -->
+
+	{% if page.layout == 'default' %}
+	<script>
+		$('#header ul.nav').find('a').click(function(){
+			var $href = $(this).attr('href');
+			var $anchor = $($href).offset().top - 60;
+			//console.log($href, $anchor + "px");
+			$('html, body').animate({ scrollTop: $anchor + "px" }, 500);
+			window.history.pushState(null, null, $href)
+			return false;
+		});
+	</script>
+	{% endif %}
+	
+	<script type="text/javascript">
+		_linkedin_data_partner_id = "309761";
+		</script><script type="text/javascript">
+		(function(){var s = document.getElementsByTagName("script")[0];
+		var b = document.createElement("script");
+		b.type = "text/javascript";b.async = true;
+		b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+		s.parentNode.insertBefore(b, s);})();
+	</script>
+	<noscript>
+	<img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=309761&fmt=gif" />
+	</noscript>
 
 </body>
 </html>
