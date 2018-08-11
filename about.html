@@ -133,39 +133,6 @@
 	</footer>
 
 	<br>
-	<!--<hr class="clearfix w-100 d-md-none">-->
-
-	<script src="/res/jquery-1.10.2.min.js"></script>
-	<script src="/res/jquery-ui-1.10.4.custom.min.js"></script>
-	<script src="/res/bootstrap.min.js"></script>
-	<script src="/res/jasny-bootstrap.min.js"></script>
-	<!-- <script src="/res/tab.js"></script> -->
-
-	{% if page.layout == 'default' %}
-	<script>
-		$('#header ul.nav').find('a').click(function(){
-			var $href = $(this).attr('href');
-			var $anchor = $($href).offset().top - 60;
-			//console.log($href, $anchor + "px");
-			$('html, body').animate({ scrollTop: $anchor + "px" }, 500);
-			window.history.pushState(null, null, $href)
-			return false;
-		});
-	</script>
-	{% endif %}
 	
-	<script type="text/javascript">
-		_linkedin_data_partner_id = "309761";
-		</script><script type="text/javascript">
-		(function(){var s = document.getElementsByTagName("script")[0];
-		var b = document.createElement("script");
-		b.type = "text/javascript";b.async = true;
-		b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-		s.parentNode.insertBefore(b, s);})();
-	</script>
-	<noscript>
-	<img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=309761&fmt=gif" />
-	</noscript>
-
 </body>
 </html>
