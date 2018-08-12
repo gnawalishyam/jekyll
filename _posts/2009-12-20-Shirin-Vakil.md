@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: person/:title
-date: 2018-08-12 12:00:00 -0600
+date: 2018-01-08 12:00:00 -0600
 
 title:  "Shirin Vakil"
 name: "Mr. Shirin Vakil"
