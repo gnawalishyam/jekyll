@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: "XChain2: Blockchain for Supply Chain and Logistics Forum"
 email: contact@blockchainsupplychain.io
-baseurl: "https://gnawalishyam.github.io/jekyll/" # the subpath of your site, e.g. /blog
+baseurl: "/jekyll" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
