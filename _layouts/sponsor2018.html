@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="container">
+	<h1>{{ page.name }}</h1>
+	<h4 class="text-center"><a href="{{ page.website }}">{{ page.website }}</a></h4>
+	<br>
+	<div class="row person-page">
+		<div class="text-center col-lg-3 col-md-3 col-sm-12 col-xs-12 col-xxs-12">
+			<img class="person-image" src="{{ page.image }}" alt="">
+		</div>
+		<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 col-xxs-12 description">
+			{{ content }}
+		</div>
+	</div>
+</div>
+<br>

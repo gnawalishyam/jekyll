@@ -23,6 +23,12 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 
+collections:
+    posts2018:
+        output: true
+        permalink: /jekyll-themes/:title/
+
+
 sass:
   sass_dir: _scss
   style: compressed
