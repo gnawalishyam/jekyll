@@ -1,7 +1,7 @@
 ---
 layout: person2018
-youtube: 
-otherlinks: 
+youtube: https://www.youtube.com/watch?v=SSo_EIwHSd4 
+otherlinks: https://www.cgdev.org/sites/default/files/blockchain-and-economic-development-hype-vs-reality_0.pdf
 permalink: person2018/:title
 date: 2018-03-04 12:00:00 -0600
 

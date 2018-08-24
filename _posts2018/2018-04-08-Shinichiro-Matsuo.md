@@ -1,7 +1,7 @@
 ---
 layout: person2018
-youtube: 
-otherlinks: 
+youtube: https://www.youtube.com/watch?v=r43LhSUUGTQ 
+otherlinks: https://www.ey.com/Publication/vwLUAssets/Blockchain_in_wealth_and_asset_management/$FILE/ey-blockchain-innovation-wealth-asset-management.pdf
 permalink: person2018/:title
 date: 2018-02-24 12:00:00 -0600
 
