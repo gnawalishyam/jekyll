@@ -1,5 +1,7 @@
 ---
 layout: person2018
+youtube: https://www.youtube.com/watch?v=RyZiqSx52Nk
+otherlinks: https://bravenewcoin.com/assets/Reference-Papers/A-Gentle-Introduction/A-Gentle-Introduction-To-Blockchain-Technology-WEB.pdf
 permalink: person2018/:title
 date: 2018-03-04 12:00:00 -0600
 

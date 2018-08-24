@@ -1,6 +1,8 @@
 ---
 object-id: 1
 layout: person2018
+youtube: 
+otherlinks: 
 permalink: person2018/:title
 date: 2018-03-04 12:00:00 -0600
 

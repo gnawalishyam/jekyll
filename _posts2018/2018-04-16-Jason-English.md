@@ -1,5 +1,7 @@
 ---
 layout: person2018
+youtube: 
+otherlinks: 
 permalink: person2018/:title
 date: 2018-02-27 12:00:00 -0600
 

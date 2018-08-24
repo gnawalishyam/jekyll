@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<section class="container">
+	<div id="speakers" class="people-media-list">
+		<h1>Presentation Materials from XChain2 2018</h1>
+		<p class="notice">*Speakers & Panelists from May 2018 Conference</p>
+		<p class="notice">Interested in speaking at the next edition of XChain2? Contact us at speakers@blockchainsupplychain.io.</p>
+
+
+		<div class="row">
+			{% assign posts2018 = site.posts2018 | where: "categories", "speakers"	| sort: 'date' | reverse %}            
+			{% for post in posts2018 %}
+			<div class="card col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+				<a href="{{ post.url }}">
+					<img src="{{ post.image }}" alt="">
+				</a>
+				<div class="caption">
+					<a href="{{ post.url }}">
+						<h4>{{ post.name }}</h4>
+					</a>
+					<p>{{ post.position }}</p>
+					{% if post.youtube   %}
+					<a target="_blank" href="{{ post.youtube }}"><img src="res/yt_logo_rgb_light.png" style="width:90px;height: 25px;"></a>							
+					{% endif %}
+					&nbsp;&nbsp;&nbsp;&nbsp;
+					{% if post.otherlinks   %}
+					<a target="_blank" href="{{post.otherlinks}}"><img src="res/link_icon_blue.png" style="width:90px;height: 25px;"></a>							
+					{% endif %}
+
+				</div>
+
+			</div>
+
+			{% endfor %}
+		</div>
+	</div>
+</section>
+

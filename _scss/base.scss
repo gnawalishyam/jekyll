@@ -249,6 +249,117 @@ body {
 }
 
 #main {
+
+	.people-media-list {
+		h2 {
+			text-align: center;
+		}
+
+		.card {
+			// less than 480px
+			height: 300px;
+			text-align: center;
+
+			@media (min-width: 480px) {
+				height: 300px;
+				text-align: center;
+			}
+
+			@media (min-width: 768px) {
+				height: 330px;
+				text-align: left;
+			}
+
+			@media (min-width: 1200px) {
+				height: 370px;
+				text-align: left;
+			}
+
+			img {
+				margin: 0 auto;
+				//border-radius: 20%;
+
+				border: 5px solid white;
+				box-shadow: rgba(0,0,0,0.3) 0px 0px 3px;
+
+				// less than 480px
+				height: 190px;
+				width: 190px;
+
+				@media (min-width: 480px) {
+					height: 190px;
+					width: 190px;
+				}
+
+				@media (min-width: 768px) {
+					height: 210px;
+					width: 210px;
+				}
+
+				@media (min-width: 992px) {
+					height: 220px;
+					width: 220px;
+				}
+
+				@media (min-width: 1200px) {
+					height: 252px;
+					width: 252px;
+				}
+			}
+
+			.caption {
+
+				h4 {
+					font-weight: 700;
+					margin-bottom: 0;
+				}
+
+				p {
+					font-size: $font-size-tertiary;
+					text-align: left;
+
+					@media (max-width: 768px) {
+						text-align: center;
+					}
+				}
+
+				a {
+					color: #333333;
+				}
+			}
+		}
+
+		.center-all-card {
+			text-align: center;
+			.caption {
+				p {
+					text-align: center;
+				}	
+			}
+		}
+
+		.img-only-card {
+			height: auto;
+		}
+
+		.extra-space-card {
+			// less than 480px
+			height: auto;
+
+			@media (min-width: 480px) {
+				height: 300px;
+			}
+
+			@media (min-width: 768px) {
+				height: 320px;
+			}
+
+			@media (min-width: 1200px) {
+				height: 370px;
+			}
+		}
+	}	
+		
 	.people-list {
 		h2 {
 			text-align: center;
